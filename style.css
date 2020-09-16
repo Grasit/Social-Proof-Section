@@ -5,12 +5,16 @@
     --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
     --Light-Grayish-Magenta: hsl(300, 24%, 96%);
     --White: hsl(0, 0%, 100%);
+    font-family: 'Spartan', sans-serif;
 }
 
 *,
 ::before,
 ::after {
     box-sizing: inherit;
+}
+html{
+    font-size: 15px;
 }
 
 .container {
@@ -21,7 +25,7 @@
 }
 
 .top > h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     color: var(--Very-Dark-Magenta);
 }
 
@@ -38,8 +42,8 @@
 .review_inner_1, .review_inner_2, .review_inner_3 {
     background-color: var(--Light-Grayish-Magenta);
     text-align: center;
+    font-size: 0.9em;
     color: var(--Very-Dark-Magenta);
-    height: content-box;
     padding: 10px;
     margin-bottom: 0.625em;
     font-weight: 600;
@@ -48,7 +52,7 @@
 
 .comment_1, .comment_2, .comment_3 {
     background-color: var(--Very-Dark-Magenta);
-    height: 200px;
+    height: 215px;
     padding: 2em;
     margin-bottom: 0.625em;
     border-radius: 5px;
@@ -144,7 +148,7 @@
 
     .comment_1, .comment_2, .comment_3 {
         width: 30%;
-        height: 90%;
+        height: 95%;
         font-size: 1.4em;
         position: relative;
         margin-bottom: 0;
