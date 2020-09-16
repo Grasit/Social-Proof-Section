@@ -80,7 +80,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        padding: 8em;
+        padding: 10em;
         height: 100vh;
     }
 
@@ -118,7 +118,7 @@
         margin-bottom: 0;
         position: relative;
         padding: 1.5em;
-        width: 75%;
+        width: 60%;
     }
 
     .review_inner_1 {
@@ -144,7 +144,7 @@
 
     .comment_1, .comment_2, .comment_3 {
         width: 30%;
-        height: 80%;
+        height: 90%;
         font-size: 1.4em;
         position: relative;
         margin-bottom: 0;
